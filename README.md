@@ -96,7 +96,7 @@ php tests/test_report_service.php
 python3 tests/test_accessibility_static.py
 ```
 
-Veja [docs/TESTES.md](docs/TESTES.md) e [docs/ACESSIBILIDADE.md](docs/ACESSIBILIDADE.md). Antes de usar em uma entrevista, valide a interface em um navegador real, incluindo teclado, zoom e exportação em PDF. Boas práticas de acessibilidade **não equivalem a uma certificação WCAG**.
+Veja [docs/TESTES.md](docs/TESTES.md) e [docs/ACESSIBILIDADE.md](docs/ACESSIBILIDADE.md). Valide a interface em um navegador real, incluindo teclado, zoom e exportação em PDF. Boas práticas de acessibilidade **não equivalem a uma certificação WCAG**.
 
 ## Estrutura
 
@@ -114,5 +114,3 @@ tests/                                 Testes PHP, HTTP e acessibilidade
 docs/                                  Arquitetura, acessibilidade e testes
 compose.yaml                           Execução local
 ```
-
-
