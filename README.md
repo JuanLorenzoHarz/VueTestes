@@ -3,7 +3,7 @@
 Prova de conceito independente criada para estudar **Vue 3, TypeScript, PHP, API REST e MySQL**, explorando pesquisa empresarial, vínculos societários, dados financeiros e relatórios. Não é produto oficial nem tem vínculo com Gannet ou LegalSearch.
 
 > **O design minimalista é uma escolha pessoal minha, baseada em acessibilidade e usabilidade.**
-> Prefiro uma interface legível, previsível e fácil de navegar a efeitos visuais. Evito glow, animações chamativas, cores excessivas e bordas sem função. Navegação por teclado, foco visível, organização e orientação são requisitos do projeto.
+> Prefiro uma interface legível, previsível e fácil de navegar a efeitos visuais. Navegação por teclado, foco visível, organização e orientação são requisitos do projeto.
 
 O sistema usa **exclusivamente dados fictícios**, sem consulta real a Serasa, SPC, Quod ou outros bureaus. Os avisos de simulação ficam concentrados **no rodapé da aplicação e no rodapé do relatório**, não repetidos em cada campo ou seção. Não utilize CPF/CNPJ real nem exponha este protótipo à internet.
 
@@ -115,6 +115,4 @@ docs/                                  Arquitetura, acessibilidade e testes
 compose.yaml                           Execução local
 ```
 
-## Como explicar na entrevista
 
-O protótipo separa experiência de uso e infraestrutura: uma pessoa pesquisa a empresa e recebe informações organizadas, enquanto o PHP coordena a verificação, trata as respostas dos fornecedores e mantém trilhas de auditoria. Os recursos técnicos de simulação são exercitados em testes, não oferecidos como controles na interface. O design minimalista é uma escolha pessoal motivada por acessibilidade, leitura e navegação por teclado.
